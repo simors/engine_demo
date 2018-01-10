@@ -3,6 +3,8 @@
  */
 
 function helloCloud(request) {
+  var user = request.currentUser
+  console.log(user)
   return 'hello lvyii engine'
 }
 

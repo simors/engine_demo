@@ -8,7 +8,10 @@ var LY = require('lvyii-engine')
 
 LY.init({
   appId: '3zE73WUYaUvEQUclCyiPQuqr',
-  appKey: 'VZbSM9RoutQ7X3yHTGOLiyZgR1Fhqmok'
+  appKey: 'VZbSM9RoutQ7X3yHTGOLiyZgR1Fhqmok',
+  serverURLs: {
+    auth: 'http://localhost:16801'
+  }
 })
 
 require('./cloud')
