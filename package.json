@@ -12,6 +12,7 @@
     "express": "~4.15.5",
     "jade": "~1.11.0",
     "lvyii-engine": "^0.0.8",
+    "lvyii_storage": "^0.0.12",
     "morgan": "~1.9.0",
     "serve-favicon": "~2.4.5"
   }
